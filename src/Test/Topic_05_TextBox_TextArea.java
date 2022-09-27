@@ -167,14 +167,6 @@ public class Topic_05_TextBox_TextArea {
 
     @Test
     public void TC_02_Login(){
-        //1
-        //driver.navigate().back();
-        //driver.navigate().back();
-
-        //2
-        //driver.get(loginURL);
-
-        //3
         driver.get(loginPageUrl);
 
         WebElement inputUserID = driver.findElement(By.name("uid"));
