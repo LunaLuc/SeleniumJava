@@ -35,7 +35,8 @@ public class Topic_05_TextBox_TextArea {
     @BeforeClass
     public void beforeClass(){
         // open chrome browse
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\laphuong\\Downloads\\auto\\chromedriver.exe");
+//        System.setProperty("webdriver.chrome.driver", "libDriver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","libDriver/chromedriver");
         driver = new ChromeDriver();
 
         //ép kiểu tường minh
